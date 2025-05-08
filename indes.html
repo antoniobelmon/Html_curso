@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer index</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-    
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>Productor</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Arroz</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>Arina</td>
+            <td>$1500</td>
+        </tr>
+        <tr>
+            <td>texto de prueba largo</td>
+            <td>$200</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: $2700</td>
+    </tfoot>
+    </table>
+    <!--lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="">
+        <label for="nombre">Nombre</label>|
+        <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido"/>
+        <br>
+        <textarea rows="10" name="ingrese comentario" id="comentario"></textarea>
+        <br>
+        <input type="submit">
+        <br>
+        <button type="button">tipo botón</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Este es un párrafo de texto. Aquí puedes escribir lo que desees.</p>
+    <p>Este es otro párrafo de texto. Puedes agregar más contenido aquí.</p>
+    <hr>
+    <h2>Segundo heading h2</h2>
+    <p>Este es un párrafo de <span>texto.</span> <br>Aquí puedes escribir lo que desees.</p>
+    <!-- Este texto es un comentario y no va a aparecer en el navegador-->
+     <a target="_blank" href="https://www.google.com.co">Ir a google</a> <br>
+     <img src="https://img.freepik.com/foto-gratis/taza-cafe-corazon-dibujado-espuma_1286-70.jpg?semt=ais_hybrid&w=740" width="400" alt="">
 </body>
 </html>
